@@ -1,0 +1,70 @@
+
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: beige;
+  overflow-x: hidden;
+}
+
+.product {
+  padding: 20px;
+  border:  1px  solid black;
+  border-radius: 10px;
+}
+
+.form-container {
+  width: 100vw;
+  height: 290px;
+}
+
+.form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: fit-content;
+  height: 100%;
+}
+
+input:nth-child(1) {
+  margin-top: 30px;
+}
+
+input {
+  display: block;
+  padding:  5px 10px;
+  width: 170px;
+  margin: 8px;
+}
+
+.form button {
+  display: block;
+}
+
+.product:hover {
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.53);
+}
+
+.heading {
+  text-align: center;
+}
+
+.products {
+  padding: 30px;
+  width: 100vw;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+select {
+  padding:  5px 10px;
+  width: 98%;
+}
